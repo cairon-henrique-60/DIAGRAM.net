@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--titulo-->
+    
+    <head>
+       <meta charset="utf-8">
+       <title>Primeiro documento</title>
+       
+       <style>
+           table,tr,th,td{
+               border:1px solid;
+           }
+       </style>
+
+    </head>
+     
+    <!--corpo do site-->
+      
+    <body>
+        <header> <!--logotipo do site-->
+           <div class="logo">
+               <img src="" alt="logotipo do site">               
+           </div>
+           
+            <nav>
+                <ul>
+                    <li><a href="">home</a></li>  <!--lista-->
+                    <li><a href="">sobre</a></li>
+                    <li><a href="">servicos</a></li>
+                    <li><a href="">contato</a></li>    
+                </ul>
+            </nav>
+        
+            <button><a href="">entrar</a></button>
+            <button><a href="">cadastrar</a></button>
+
+        
+        </header>
+        <hr>
+        
+        <main>
+         <!--conteudo principal do site//alt Z quebra a linha do visul code -->
+            <section class="sessao welcome"id="welcome">
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aliquid numquam alias minima architecto eos beatae voluptatum illo animi corporis, quis nobis ea tempore corrupti enim eaque tenetur praesentium repudiandae.   
+                </p>
+            <!--tags para inserir imagem e definir tamanho-->
+
+                <img src="https://marketingdeconteudo.com/wp-content/uploads/2016/08/imagens-gratis-6.jpg" width="500" height="400"/>
+            </section>
+            
+            <section>
+         <!--foi criado uma segunda sessão-->
+            <section class="sessao about"id="about">
+                <img src="https://designmodo.com/wp-content/uploads/2017/07/free-photos.jpg" width="500" height="400"/>
+
+                
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aliquid numquam alias minima architecto eos beatae voluptatum illo animi corporis, quis nobis ea tempore corrupti enim eaque tenetur praesentium repudiandae.   
+                </p>
+
+                
+            </section>
+
+        </main>
+         <!--foi criado uma terceira sessao fora do main-->
+        <section class="sessao pricing"id="pricing">
+            <table>
+                <tr>
+                    <th>Week</th>
+                    <th>Mounth</th>
+                    <th>Year</th>
+                </tr>
+
+                <tr>
+                    <td>$1.00</td>
+                    <td>$3.00</td>
+                    <td>$4.00</td>
+                </tr>
+            </table>
+        </section>
+        
+        <hr />
+
+        <footer>   
+            <div class="logo">
+                <img src="" alt="logotipo do site">               
+            </div>
+            
+             <nav>
+                 <ul>
+                     <li><a href="">home</a></li>  <!--lista-->
+                     <li><a href="">sobre</a></li>
+                     <li><a href="">servicos</a></li>
+                     <li><a href="">contato</a></li>    
+                 </ul>
+             </nav> 
+             
+             <form>
+                 <label for="">nome</label>
+                 <input type="text"><br>
+
+                 <label for="">sobrenome</label>                 
+                 <input type="text"><br>
+
+                 <label for="">email</label>                 
+                 <input type="email"><br>
+
+                 <button type="">enviar</button>
+             </form>
+        </footer>
+
+    </body> 
+</html>
